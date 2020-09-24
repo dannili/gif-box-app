@@ -6,7 +6,7 @@ An ember project that displays today's top trending gifs using giphy API
 # Running the app
 Clone
 ```shell
-clone https://github.com/dannili/gif-box-app.git
+git clone https://github.com/dannili/gif-box-app.git
 ```
 
 Install dependencies
@@ -15,7 +15,8 @@ cd gif-box-app
 npm install
 ```
 
-Start server
+Start server 
+(make sure Port 4200 is not in use)
 ```shell
 ember s
 ```
