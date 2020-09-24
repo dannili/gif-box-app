@@ -1,0 +1,8 @@
+<section>
+  {{#each trendingGifs as |gif-info|}}
+    <div>
+      <img src={{gif-info.previewGifUrl}} alt={{gif-info.title}}/>
+      <p>{{gif-info.title}}</p>
+    </div>
+  {{/each}}
+</section>
